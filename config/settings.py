@@ -175,7 +175,9 @@ class Staging(Common):
         ('HTTP_X_FORWARDED_PROTO', 'https')
     )
 
-    
+    DEBUG = False
+
+    ALLOWED_HOSTS = ['164.92.255.85']
     
     DATABASES = {
     'default': {
