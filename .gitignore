@@ -90,3 +90,4 @@ db.sqlite3
 application
 Pipfile
 Pipfile.lock
+*.zip
